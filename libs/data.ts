@@ -3,7 +3,7 @@ export const data = [
     id: "windpress",
     name: "Windpress",
     description:
-      "a website created to manage your tasks, create, edit, or delete them, while also setting a due time to do each task. This app was created with nextjs, tailwind and mongodb.",
+      "a website created to manage your tasks, you can create, edit, or delete them, while also setting a due time to do each task. This app was created with nextjs, tailwind and mongodb.",
     preview: "/windpres.png",
     repoUrl: "https://github.com/Jorge0611/windpress-app",
     hostUrl: "",
