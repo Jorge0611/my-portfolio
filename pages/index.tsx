@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="space-y-8 scroll-smooth">
-        <nav className="fixed top-0 left-0 right-0 h-12 bg-zinc-900 bg-opacity-80 flex justify-center items-center space-x-8">
+        <nav className="fixed top-0 left-0 right-0 h-12 bg-zinc-900 bg-opacity-90 flex justify-center items-center text-sm px-4 py-8 space-x-6 md:space-x-8">
           <a href="#about-me" className="hover:text-blue-400">
             about me
           </a>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           <div className="space-y-8">
             <p className="text-slate-400">Hello world! 🚀</p>
             <p>
-              I'm Jorge Luis Saldivar Castillo, I'm a{" "}
+              I&apos;m Jorge Luis Saldivar Castillo, I&apos;m a{" "}
               <span className="text-blue-400">
                 front-end software developer{" "}
               </span>
@@ -44,8 +44,8 @@ const Home: NextPage = () => {
               My interest in making the apps and websites I create to have a
               modern and beautiful user interface, while maintaining the good
               user experience, is what motivated me to focus my knowledge in the
-              frontend. Because of this, I've been learning and improving my
-              skills creating projects to show what I've learned.✨
+              frontend. Because of this, I&apos;ve been learning and improving
+              my skills creating projects to show what I&apos;ve learned.✨
             </p>
           </div>
         </section>
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                 El Nuevo Diario App
               </a>
               . my role in this was to fix every error and reintegrated the api
-              with the application, which wasn't working before i started
+              with the application, which wasn&apos;t working before i started
               working there. This app was using the Ionic technologies,
               alongside wordpress api to fetch the news from the website.
             </p>
@@ -104,8 +104,8 @@ const Home: NextPage = () => {
         {/* contacts */}
         <section id="contacts" className="space-y-4">
           <p>
-            I've built other different projects, if you want to have a look you
-            can{" "}
+            I&apos;ve built other different projects, if you want to have a look
+            you can{" "}
             <a
               href="https://github.com/Jorge0611"
               target="_blank"

@@ -39,7 +39,7 @@ const Project = ({
         </div>
         <div className="flex justify-between items-center">
           <div>
-            <p className="text-4xl tracking-widest">{name}</p>
+            <p className="text-2xl md:text-4xl tracking-widest">{name}</p>
           </div>
           <div className="flex flex-col">
             <a
