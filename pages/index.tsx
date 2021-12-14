@@ -139,7 +139,7 @@ const Home: NextPage = () => {
             </a>
             .
           </p>
-          <p>
+          {/* <p>
             you can also check my diplomas and certifications{" "}
             <a
               href=""
@@ -150,7 +150,7 @@ const Home: NextPage = () => {
               here
             </a>
             .
-          </p>
+          </p> */}
           <p>
             you can contact me via email at{" "}
             <a
@@ -169,13 +169,23 @@ const Home: NextPage = () => {
       <footer className="text-slate-400 mt-16">
         <p>
           built by me -{" "}
-          <a href="" className="underline decoration-blue-400 hover:text-white">
+          <a
+            href="https://github.com/Jorge0611"
+            target="_blank"
+            rel="noreferrer"
+            className="underline decoration-blue-400 hover:text-white"
+          >
             jorge saldivar
           </a>{" "}
           with next js for static site generation, the slide up animation
           created with react-reveal, styled with tailwind css, and font family
           ‘ibm plex mono’ from google font, you can check out the source code{" "}
-          <a href="" className="underline decoration-blue-400 hover:text-white">
+          <a
+            href="https://github.com/Jorge0611/my-portfolio"
+            target="_blank"
+            rel="noreferrer"
+            className="underline decoration-blue-400 hover:text-white"
+          >
             here❤️
           </a>
         </p>
